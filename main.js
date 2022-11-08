@@ -2,9 +2,9 @@ var grades = [];
         var update_scores = function () {
            var val = get_item_list(grades);
            //Add the appropriate id names to read scores, student_name
-           document.getElementById("score").value = "";
-           document.getElementById("").value = val;
-           document.getElementById("grades").value = "";   
+           document.getElementById("scores").value = "";
+           document.getElementById("student_name").value = val;
+           document.getElementById("score").value = "";   
            document.getElementById("student_name").focus();
         }    
         //Function to add last, first, score to studentGrade
